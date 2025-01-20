@@ -14,6 +14,7 @@ men_price = men_shoes.First_men_shoe()
 women_price = womenShoesPage.First_women_shoe()
 
 lower_price = min(women_price,men_price)
+
 print(f"the lowest price is {lower_price}")
 
 price_without_dollar = lower_price.replace("$", "")

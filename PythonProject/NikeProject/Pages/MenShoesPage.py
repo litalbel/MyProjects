@@ -3,7 +3,6 @@ import time
 
 from selenium.webdriver.common.by import By
 
-
 class menShoesPage():
     def __init__(self, driver):
         self.driver = driver
