@@ -7,6 +7,7 @@ import time
 
 from selenium.webdriver.common.by import By
 
+#print the lowest price between women's shoes and men's shoes
 
 class loePrice():
     def __init__(self, driver):
